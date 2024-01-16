@@ -1,6 +1,8 @@
 @font-face {
-    font-family: "Courier New", Courier, monospace;
-    src: url("fonts/cour.ttf");
+    font-family: 'Courier New', Courier, monospace;
+    src:
+        local("Courier New"),
+        url("resources/fonts/cour.ttf");
 }
 
 body {
@@ -9,4 +11,8 @@ body {
     background-color: beige;
     color: black;
     text-align: center;
+}
+
+.player-name p {
+    font-family: 'Courier New', Courier, monospace;
 }
