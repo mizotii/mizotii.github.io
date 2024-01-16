@@ -1,4 +1,5 @@
-# MY SITE 
-Making a personal website seems like a rite of passage, so here I am, making one.
+only public cos i'm using pages. plz ignore
 # TO-DO
-- heatmap
+- figure out api
+- profile grid
+- just get some minimal css garb out there
