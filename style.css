@@ -8,11 +8,30 @@
 body {
     display: flex;
     font-family: "Courier New", Courier, monospace;
-    background-color: beige;
-    color: black;
+    background-color: #343434;
+    color: #ffffff;
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#icons {
+    position: absolute;
+    top: 2.5%;
+    right: 2.5%;
+}
+
+#icons img {
+    width: 48px;
+}
+
 #pages {
-    display: inline-block;
+    font-size: 32px;
+    margin-top: 20%;
+    margin-left: 2.5%;
+    position: fixed;
+    width: 1px;
 }
