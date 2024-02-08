@@ -20,13 +20,13 @@ a {
 
 .v1 {
     border-left: 2px solid white;
-    position: absolute;
+    position: fixed;
     height: 100%;
     left: 2.5%;
 }
 
 #icons {
-    position: absolute;
+    position: fixed;
     top: 5%;
     right: 5%;
 }
@@ -37,8 +37,9 @@ a {
 
 #pages {
     font-size: 32px;
-    margin-top: 20%;
+    top: 20%;
+    bottom: 20%;
     margin-left: 5%;
-    position: fixed;
+    position: absolute;
     width: 50px;
 }
