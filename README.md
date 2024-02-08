@@ -1,2 +1,2 @@
 # TO-DO (short term)
-gimme a sec
+- make lines do what i want them to do

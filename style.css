@@ -18,10 +18,17 @@ a {
     color: #ffffff;
 }
 
+.v1 {
+    border-left: 2px solid white;
+    position: absolute;
+    height: 100%;
+    left: 2.5%;
+}
+
 #icons {
     position: absolute;
-    top: 2.5%;
-    right: 2.5%;
+    top: 5%;
+    right: 5%;
 }
 
 #icons img {
@@ -31,7 +38,7 @@ a {
 #pages {
     font-size: 32px;
     margin-top: 20%;
-    margin-left: 2.5%;
+    margin-left: 5%;
     position: fixed;
-    width: 1px;
+    width: 50px;
 }
