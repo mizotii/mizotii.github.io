@@ -1,69 +1,22 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>osu-heatmap</title>
-    <script src="scripts/osuapi.js">        
-    </script>
-    <script src="scripts/heatmap.js">
-    </script>
-</head>
-<body>
-    <div class="profile-detail">
-        <div class="play-stats">
-            <table>
-                <tr>
-                    <th scope="row">time played:</th>
-                    <td>HH:MM</td>
-                </tr>
-                <tr>
-                    <th scope="row">circles clicked:</th>
-                    <td>null</td>
-                </tr>
-                <tr>
-                    <th scope="row">maps played:</th>
-                    <td>null</td>
-                </tr>
-                <tr>
-                    <th scope="row">circles clicked per play:</th>
-                    <td>null</td>
-                </tr>
-                <tr>
-                    <th scope="row">pp gained:</th>
-                    <td>null</td>
-                </tr>
-            </table>
+    <head>
+        <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+        <title>welcome.</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="resources/favicon.jpg">
+        <meta property="og:title" content="my site.">
+        <meta property="og:description" content="for me.">
+        <meta property="og:url" content="https://sunchul.moe" />
+    </head>
+    <body>
+        <div class="box" id="pages">
+            <a id="home" href="/">home</a>
+            <a id="blog" href="/blog">blog</a>
+            <a id="japanese" href="/japanese">japanese</a>
+            <a id="projects" href="/projects">projects</a>
+            <a id="about" href="/about">about</a>
         </div>
-        <div class="player-detail">
-            <div class="player-avatar">
-                <img src="/resources/azumi.jpg">
-            </div>
-            <div class="player-flag">
-                <img src="/resources/flags/country-flags/png100px/jp.png">
-            </div>
-            <div class="player-name">
-                <p>azumi</p>
-            </div>
-        </div>
-        <div class="performance-stats">
-            <div class="global-rank">
-                <strong> global rank: #7500 </strong>
-            </div>
-            <div class="country-rank">
-                <strong> country rank: #1538 </strong>
-            </div>
-            <div class="performance-points">
-                <strong> global rank: 8746 </strong>
-            </div>
-        </div>
-    </div>
-    <div class="authorization">
-        <button id="auth-test" class="auth-test" type="button">
-            test
-        </button>
-        <p class="authorization-feedback"></p>
-    </div>
-</body>
+    </body>
 </html>
