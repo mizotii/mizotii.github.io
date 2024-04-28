@@ -1,2 +1,1 @@
-# TO-DO (short term)
-- make lines do what i want them to do
+abandoned for now but will make a real personal page for real because i am more skilled now than before
