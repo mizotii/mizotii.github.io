@@ -6,7 +6,7 @@
 
 <main>
     <page>
-        <Page />
+        <Page title='home' />
         <router><Router /></router>
     </page>
     <footer><Footer /></footer>
