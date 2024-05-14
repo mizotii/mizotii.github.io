@@ -1,1 +1,1 @@
-abandoned for now but will make a real personal page for real soon because i am more skilled now than before
+svelte + vite, tailwindcss and daisyui
