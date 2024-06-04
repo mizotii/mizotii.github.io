@@ -37,9 +37,6 @@
                 </ul>
             </li>
         </ul>
-        <toggle>
-            <ToggleTheme />
-        </toggle>
     </nav>
 
     <div>
@@ -55,9 +52,5 @@
     nav {
         position: flex;
         margin: 24px;
-    }
-
-    toggle {
-        padding: 12px;
     }
 </style>
