@@ -11,7 +11,7 @@
         </p>
         <p>
             You can download my J-E translation of a short story from the Oregairu anthologies here:
-            <a href='/manuscript.pdf' download='manuscript'>斯くして、彼の前に新たな敵は現れる。</a>
+            <a href="/manuscript.pdf" download>斯くして、彼の前に新たな敵は現れる。</a>
         </p>
     </div>
 </Page>
