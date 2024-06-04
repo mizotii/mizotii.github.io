@@ -12,6 +12,7 @@
         width: 960px;
         border: solid 1px black;
         flex-direction: column;
+        align-items: center;
     }
 
     page :global(h1) {
