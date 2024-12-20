@@ -11,7 +11,7 @@
 <div class="p-4 flex flex-row">
     <Navbar />
     <div class="divider divider-horizontal divider-neutral"></div>
-    <div>
+    <div class="w-4/5">
         <slot />
     </div>
     <div class="divider divider-neutral"></div>
