@@ -1,5 +1,5 @@
 <script>
-
+    import Icons from "./Icons.svelte";
 </script>
 
 <div class="avatar p-4">
@@ -12,4 +12,7 @@
 </div>
 <div class="">
     <p class="text-lg text-center font-extralight">developer, diehard Mariners fan, rhythm game enjoyer</p>
+</div>
+<div class="p-2">
+    <Icons />
 </div>
