@@ -1,13 +1,13 @@
 <script>
     import Header from "$lib/components/Header.svelte";
-    import BmsBackground from "$lib/components/BMS.svelte";
+    import Background from "$lib/components/Background.svelte";
     import NowPlaying from "$lib/components/NowPlaying.svelte";
     import "../app.css";
 
     let bgVisible = true;
 </script>
 
-<BmsBackground bind:visible={bgVisible} />
+<Background bind:visible={bgVisible} />
 
 <!-- Desktop: fixed NowPlaying + bg toggle (hidden on mobile) -->
 <div class="hidden md:block">
