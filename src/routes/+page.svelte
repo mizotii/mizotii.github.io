@@ -1,8 +1,28 @@
-<script>
-    
-</script>
+<main class="font-mono space-y-10 text-sm leading-relaxed">
 
-<main>
-    <p class="text-2xl py-4">about me</p>
-    <p class="">Hi! I'm Joel, a 22 year old student at North Seattle College, and I'm currently working towards a B.S. in Computer Science. I'm the developer of osu-heatm.app, a data visualization tool for osu! players. In my free time, I like to study Japanese through watching shows, YouTube, and reading novels. I used this approach to pass the N1 Japanese Language Proficiency Test in December 2023 in under three years of study, and I'm aspiring to be as close to native level as a non-native speaker can possibly be. Besides that, I love playing rhythm games such as beatmania IIDX, Sound Voltex, DrumMania, Taiko no Tatsujin, o!m 4K/7K, and others. You can usually find me at the arcade after I've finished up all my tasks for the day. I'm also a lifelong Mariners fan, and I've found a new way to enjoy the game as I've become more interested in analytics and roster management.</p>
+    <!-- About the background -->
+    <section class="space-y-2">
+        <p class="opacity-40 text-xs tracking-widest">what is the background?</p>
+        <p>
+            this is an autoplayer for
+            <a class="underline underline-offset-2 hover:opacity-70 transition-opacity"
+               href="https://en.wikipedia.org/wiki/Be-Music_Source"
+               target="_blank" rel="noopener noreferrer">Be-Music Source (BMS)</a>
+            files that i wrote! the source code can be found
+            <a class="underline underline-offset-2 hover:opacity-70 transition-opacity"
+               href="https://github.com/mizotii/minimal-bms-auto"
+               target="_blank" rel="noopener noreferrer">here</a>.
+        </p>
+    </section>
+
+    <!-- Links / nav -->
+    <section class="space-y-2">
+        <p class="opacity-40 text-xs tracking-widest">links</p>
+        <ul class="space-y-1">
+            <li class="opacity-30 cursor-not-allowed select-none">
+                blog → <span class="text-xs">(wip)</span>
+            </li>
+        </ul>
+    </section>
+
 </main>
