@@ -1,6 +1,6 @@
 <script>
     import Header from "$lib/components/Header.svelte";
-    import BmsBackground from "$lib/components/BmsBackground.svelte";
+    import BmsBackground from "$lib/components/BMS.svelte";
     import NowPlaying from "$lib/components/NowPlaying.svelte";
     import "../app.css";
 
