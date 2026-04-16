@@ -1,8 +1,6 @@
 <script lang="ts">
     import { chartStore } from '$lib/stores/chartStore';
 
-    export let mobile = false;
-
     // Strip Unicode replacement characters left over from the source file encoding
     function clean(s: string): string {
         return s.replace(/\uFFFD/g, '').replace(/\s+$/, '');
@@ -12,8 +10,8 @@
 </script>
 
 {#if meta}
-<div class="now-playing" class:mobile aria-label="now playing">
-    <span class="label">// now playing</span>
+<div class="now-playing" aria-label="now playing">
+    <span class="label">now playing</span>
     <span class="title">{clean(meta.title)}{meta.subtitle ? ` ${clean(meta.subtitle)}` : ''}</span>
     <span class="artist">{clean(meta.artist)}</span>
     {#if meta.subartist}<span class="subartist">{clean(meta.subartist)}</span>{/if}
@@ -24,7 +22,7 @@
 <style>
     .now-playing {
         position: fixed;
-        bottom: 1.5rem;
+        top: 1.5rem;
         left: 1.5rem;
         z-index: 50;
         display: flex;
@@ -35,18 +33,8 @@
         font-family: 'Courier New', Courier, monospace;
         font-weight: 700;
         line-height: 1.3;
-        pointer-events: none;
-    }
-    .now-playing:hover {
-        opacity: 0.9;
-    }
-    .now-playing.mobile {
-        position: static;
-        opacity: 1;
         pointer-events: auto;
-    }
-    .now-playing.mobile:hover {
-        opacity: 1;
+        user-select: text;
     }
     .label {
         font-size: 0.65rem;
